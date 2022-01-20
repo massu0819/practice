@@ -118,11 +118,15 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-bottom: 90px;
 
+    .item:nth-child(2) {
+      margin: 0 10px;
+    }
 
     .item {
       width: 320px;
-      padding: 0 10px;
+
 
 
       .icon {
@@ -140,6 +144,7 @@
 
 
       .sub {
+        font-size: 16px;
 
       }
     }
