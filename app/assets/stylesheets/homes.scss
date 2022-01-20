@@ -57,8 +57,91 @@
 
     .portfolio-sub {
       font-size: 16px;
-      padding: 30px 0;
+      padding-top: 30px;
+      padding-bottom: 25px;
+    }
+  }
 
+  .content{
+      padding-bottom: 85px;
+      max-width: 920px;
+      flex-grow: 1;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin: auto;
+
+    .item{
+      flex-basis: 300px;
+      height: 250px;
+
+      .item-image{
+        width: 300px;
+        height: 250px;
+        padding: 5px;
+      }
+    }
+  }
+}
+.feature {
+  width: 100%;
+
+  .text {
+    margin: auto;
+    text-align: center;
+    width: 980px;
+    padding-top: 90px;
+
+    .feature-main {
+      font-size: 32px;
+    }
+
+    .feature-main:after {
+      content: "";
+      display: block;
+      width: 70px;
+      height: 3px;
+      margin: 8px auto 0 auto;
+      background-color: #EC715F;
+    }
+
+    .feature-sub {
+      font-size: 16px;
+      padding: 30px 0;
+    }
+
+  }
+
+  .content {
+
+    flex-grow: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+    .item {
+      width: 320px;
+      padding: 0 10px;
+
+
+      .icon {
+        text-align: center;
+        .fa-angry, .fa-amazon, .fa-biohazard {
+          font-size: 60px;
+        }
+
+        .tittle {
+          font-size: 20px;
+          padding: 10px 0;
+
+        }
+      }
+
+
+      .sub {
+
+      }
     }
   }
 }
