@@ -150,3 +150,93 @@
     }
   }
 }
+
+.profile-main {
+  width: 100%;
+  background-color: #ECEFF1;
+
+  .text {
+
+    margin: auto;
+    text-align: center;
+    width: 1024px;
+    padding-top: 90px;
+
+    .profile-text {
+      font-size: 32px;
+    }
+
+    .profile-text:after {
+      content: "";
+      display: block;
+      width: 70px;
+      height: 3px;
+      margin: 8px auto 0 auto;
+      background-color: #EC715F;
+    }
+
+    .profile-sub {
+      font-size: 16px;
+      padding: 30px 0;
+    }
+
+  }
+
+  .content {
+    width: 1024px;
+    margin: auto;
+    flex-grow: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 90px;
+
+    .profile-image {
+      width: 512px;
+      padding: auto;
+      text-align : center;
+
+      .image {
+        .item-image {
+          width: 250px;
+          height: 250px;
+          border-radius: 50%;
+
+        }
+      }
+
+    }
+
+    .profile {
+      width: 512px;
+
+
+
+      .name {
+        font-size: 20px;
+        padding-bottom: 5px;
+
+
+      }
+
+      .sub {
+        padding-bottom: 20px;
+        font-size: 16px;
+      }
+
+      .my-skill {
+        font-size: 20px;
+        padding-bottom: 5px;
+
+      }
+
+      .skills {
+        font-size: 16px;
+
+      }
+
+    }
+
+  }
+}
+
