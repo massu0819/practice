@@ -33,7 +33,7 @@
 
 .main {
   width: 100%; /* 横幅いっぱい */
-  background-color: #ECEFF1;
+  background-color: #4B8080;
 
   .text {
     margin: auto;
@@ -85,6 +85,8 @@
 }
 .feature {
   width: 100%;
+  background-color: #80654B;
+  padding-bottom: 90px;
 
   .text {
     margin: auto;
@@ -118,7 +120,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-bottom: 90px;
+
 
     .item:nth-child(2) {
       margin: 0 10px;
@@ -153,8 +155,9 @@
 
 .profile-main {
   width: 100%;
-  background-color: #ECEFF1;
-
+  background-image: url(2566986.jpg);
+  background-size: 100% 100%;
+  color: white;
   .text {
 
     margin: auto;

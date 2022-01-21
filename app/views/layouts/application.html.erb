@@ -11,6 +11,39 @@
   </head>
 
   <body>
+    <header>
+      <div class="header">
+        <div id="navArea">
+          <div class="home-btn">
+            <image class="home-image" src="/assets/favicon.ico" />
+            <p class="home-text">MySite</p>
+            <p class="home-sub-text">WebCamp</p>
+          </div>
+          <nav class="nav">
+            <div class="inner">
+              <ul>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#feature">Feature</a></li>
+                <li><a href="#profile">Profile</a></li>
+              </ul>
+            </div>
+          </nav>
+
+          <div class="btn-trigger"  id="btn19">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+
+          <div id="mask"></div>
+
+        </div>
+
+      </div>
+    </header>
     <%= yield %>
+    <footer>
+
+    </footer>
   </body>
 </html>
